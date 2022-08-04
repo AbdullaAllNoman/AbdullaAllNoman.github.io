@@ -1,0 +1,163 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap");
+/* font-family: 'Playfair Display', serif;  */
+/* font-family: 'Ubuntu', sans-serif;  */
+/* font-family: 'Nunito Sans', sans-serif; */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans", sans-serif;
+  color: gray;
+}
+/* header section css starts */
+header {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 28px;
+  position: sticky;
+  z-index: 1;
+  border-bottom: 3px solid whitesmoke;
+  background-color: whitesmoke;
+  top: 0;
+  /* background-color: white; */
+}
+.aside {
+  height: fit-content;
+  width: 20%;
+  padding-left: 100px;
+}
+.logo {
+  width: 24%;
+  /* padding: 20px; */
+}
+.logo a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 70px;
+}
+.logo a:hover {
+  color: black;
+}
+nav {
+  width: 70%;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+}
+nav ul li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+}
+nav ul li a:hover {
+  color: black;
+}
+/* about section css starts */
+.main-content {
+  display: flex;
+  margin-top: 60px;
+}
+.profile img {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+.aside h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.aside h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.social-link {
+  /* padding-left: 10px; */
+}
+.social-link ul {
+  list-style: none;
+}
+.social-link ul li {
+  padding: 5px;
+}
+.social-link ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.social-link ul li i {
+  padding-right: 10px;
+}
+.social-link ul li a:hover {
+  color: black;
+}
+.about-me {
+  width: 60%;
+  padding-bottom: 60px;
+}
+.about {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+.about h1 {
+  padding-bottom: 20px;
+  color: black;
+}
+.about p {
+  padding-bottom: 20px;
+  color: black;
+}
+.about li {
+  margin-left: 50px;
+  color: black;
+}
+.recent-update {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.recent-update h1 {
+  padding-bottom: 20px;
+  color: black;
+}
+.recent-update li {
+  margin-left: 50px;
+  color: black;
+}
+.about ol p {
+  padding-left: 80px;
+}
+.about ol ul {
+  padding-left: 80px;
+}
+.about ol li {
+  font-weight: bold;
+}
+.about ol ul li {
+  list-style: disc;
+}
+/* about section css ends */
+
+/* footer section css starts */
+/* footer section css ends */
+
+/* footer section css starts */
+footer {
+  padding: 45px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 3px solid whitesmoke;
+  background-color: whitesmoke;
+}
+footer a:hover {
+  color: black;
+}
+/* footer section css ends */
