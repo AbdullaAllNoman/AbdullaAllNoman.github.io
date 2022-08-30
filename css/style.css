@@ -143,6 +143,23 @@ nav ul li a:hover {
 .about ol ul li {
   list-style: disc;
 }
+.about ol li {
+  color: gray;
+}
+.about ol li p b {
+  color: black;
+}
+.about ol li p {
+  color: gray;
+}
+.about ol li a {
+  color: blue;
+}
+.name {
+}
+.name b {
+  color: black;
+}
 /* about section css ends */
 
 /* footer section css starts */
