@@ -104,7 +104,7 @@ nav ul li a:hover {
   padding-bottom: 60px;
 }
 .about {
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 30px;
 }
 .about h1 {
@@ -120,7 +120,7 @@ nav ul li a:hover {
   color: black;
 }
 .recent-update {
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 20px;
 }
 .recent-update h1 {
@@ -155,12 +155,60 @@ nav ul li a:hover {
 .about ol li a {
   color: blue;
 }
+.about ul li a {
+  color: blue;
+}
 .name {
 }
 .name b {
   color: black;
 }
 /* about section css ends */
+/*cv section css starts */
+.resume {
+  text-align: center;
+}
+button {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: whitesmoke;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 10px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 10px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+button:hover {
+  color: #e8e8e8;
+}
+
+button:hover::before {
+  width: 100%;
+}
+.cv {
+  padding-top: 60px;
+}
+/*cv section css ends */
 
 /* footer section css starts */
 /* footer section css ends */
