@@ -16,6 +16,13 @@
 .publication{
   display: none;
 }
+.bg-light{
+  padding: 20px 50px!important;
+}
+.project-div{
+  display: flex;
+  flex-direction: column;
+}
 /* header section css starts */
 header {
   display: flex;
@@ -43,6 +50,7 @@ header {
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
+  margin-left: 98px;
   color: black;
   padding: 10px;
 }
